@@ -10,17 +10,17 @@ int main()
     int telephone;
 
      printf("votre nom est :  ");
-        scanf("%s", nom);
+        scanf("%s", &nom);
      printf("votre prenom est :  ");
-        scanf("%s", prenom);
+        scanf("%s", &prenom);
      printf("votre sexe est :  ");
-        scanf("%s", sexe);
+        scanf("%s", &sexe);
      printf("votre age est : ");
         scanf("%d",&age);
      printf("votre telephone est : ");
         scanf("%d",&telephone);
 
      printf("------------------votre information personnelle est :----------------------\n");
-     printf("nome : %s\n prenom : %s\n sexe :%s\n age :%d\n telephone :%d\n ",nom,prenom,sexe,age,telephone);
+     printf(" nome : %s\n prenom : %s\n sexe :%s\n age :%d\n telephone :%d\n ",nom,prenom,sexe,age,telephone);
     return 0;
 }
