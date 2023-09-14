@@ -10,7 +10,7 @@ int main()
     scanf("%d",&b);
     if(a==b)
     {
-        sum=a*3;
+        sum=(a+b)*3;
         printf("triple =%d",sum);
     }
     else{
