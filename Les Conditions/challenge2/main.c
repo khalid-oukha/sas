@@ -6,9 +6,11 @@ int main()
 {
     char caractere;
     printf("entrez un caractere :");
-    scanf ("%s",&caractere);
+    scanf ("%c",&caractere);
 
-
+    if(caractere=='A' || caractere=='E' || caractere=='I' || caractere=='O' || caractere=='U' || caractere=='Y'){
+        caractere = caractere - 32;
+    }
        switch(caractere){
      case 'a':
      printf("voyelle");
