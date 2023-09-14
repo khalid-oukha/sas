@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1694650864 source:c:\users\x390\desktop\sas\langage c\5challenge\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
