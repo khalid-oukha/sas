@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1694689392 source:c:\users\youcode\desktop\sas\les conditions\challange4\main.c
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+
