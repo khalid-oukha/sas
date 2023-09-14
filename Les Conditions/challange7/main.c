@@ -9,10 +9,10 @@ int main()
      if ((alphabet >= 'a' && alphabet <= 'z') || (alphabet >= 'A' && alphabet <= 'Z'))
         {
          if(alphabet>=65 && alphabet<=90){
-        printf("%c alphabet majuscule.");
+        printf("%c alphabet majuscule.",alphabet);
     }
     else{
-        printf("%c alphabet minuscule");
+        printf("%c alphabet minuscule",alphabet);
     }
      }
 

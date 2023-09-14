@@ -8,6 +8,7 @@ int main()
     printf("entrez un caractere :");
     scanf ("%s",&caractere);
 
+
        switch(caractere){
      case 'a':
      printf("voyelle");
