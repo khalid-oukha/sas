@@ -14,7 +14,6 @@ int main()
     printf("entrez un nombre c :");
     scanf("%d",&c);
 
-    //Δ = b2 – 4ac
     dis=(pow(b,2))-(4*a*c);
     printf("dis = %d : \n",dis);
 
