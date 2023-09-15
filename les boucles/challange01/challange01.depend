@@ -1,5 +1,9 @@
 # depslib dependency file v1.0
+<<<<<<< HEAD
 1694737754 source:c:\users\x390\desktop\sas\les boucles\challange01\main.c
+=======
+1694784299 source:c:\users\youcode\desktop\sas\les boucles\challange01\main.c
+>>>>>>> 61c73ee0e666326613a02611d28beea78cf90244
 	<stdio.h>
 	<stdlib.h>
 
