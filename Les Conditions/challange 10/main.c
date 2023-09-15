@@ -6,7 +6,7 @@ int main()
     int jour,mois,annee;
     printf("entrez une date (Ex: 10/09/2022):\n");
     scanf("%d/%d/%d",&jour,&mois,&annee);
-        printf("%d-",jour);
+        printf("%d /",jour);
     switch(mois)
     {
        case 1: printf("Janvier");
@@ -34,7 +34,6 @@ int main()
        case 12: printf("Decembre");
             break;
     }
-    printf("-%d\n",annee);
-    system("pause");
+    printf("/ %d",annee);
     return 0;
 }

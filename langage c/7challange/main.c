@@ -8,14 +8,14 @@ int main()
     scanf("%d",&number);
     if(number>99 && number<1000)
        {
-            num1 = number/100;
+    num1 = number/100;
     num2 = (number/10)-(num1*10);
     num3 = number%10 ;
 
     rev= (num3*100)+(num2*10)+num1;
     printf("inverse est %d ",rev);
        }
-else{6
+else{
     system("pause");
 }
 
