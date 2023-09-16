@@ -1,22 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-<<<<<<< HEAD
 #include <time.h>
 int main()
 {
-    //makes rand function choose other number every time ze run the programe
-    srand(time(NULL));
-    int randomNum;
-    randomNum=rand() %7;
-    char* jour[]={"landi","mardi","mercredi","jeudi","vendredi","samedi","dimanche"};
 
-
-    printf("jour de la somaine choisi : %s",jour[randomNum]);
-
-=======
-#include<time.h>
-int main()
-{
 
     srand(time(NULL));
     int randomNum = rand() %7;
@@ -38,7 +25,7 @@ int main()
             break;
 
     }
->>>>>>> 61c73ee0e666326613a02611d28beea78cf90244
+
 
     return 0;
 }
