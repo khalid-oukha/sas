@@ -16,7 +16,7 @@ int main()
 
 
 
-            if(num%i+1 || num%i==0 )
+            if( num%(i+1)==0 || num%i==0 )
                 {
                         printf(" non premier ");
                         break;

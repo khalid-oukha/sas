@@ -8,18 +8,19 @@ int main()
     printf("entrez numbre des etoile :");
     scanf("%d",&num);
 
-    for(int i=1;i<=num;i++)
+    for(int i=1; i<=num; i++)
     {
-        for(int j=num;j>i;j--){
-              printf(" ");
+        for(int j=num; j>i; j--)
+        {
+            printf(" ");
         }
 
 
-        for(int p=1;p<i*2;p++)
-            {
+        for(int p=1; p<i*2; p++)
+        {
             printf("*");
         }
-     printf("\n");
+        printf("\n");
     }
     return 0;
 }
