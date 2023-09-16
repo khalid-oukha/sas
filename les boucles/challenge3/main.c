@@ -3,30 +3,38 @@
 
 int main()
 {
-    int num,cpt;
+    int num;
     printf("entrez un nombre : ");
     scanf("%d",&num);
 
-
-    if(num<=1){
-     printf("non premier");
- }
- else{
-
-    for (int i=2;i<num-1;i++){
-
-            if(num % i == 0)
-                {
-                    cpt=0;
-                }
+    if(num==1 || num<1){
+        printf(" non premier ");
     }
-    if(cpt==0){
-            printf("non premier");
-        }
     else{
-            printf("premier");
-        }
- }
+
+          for (int i=2;i<num;i++){
+
+
+
+            if(num%i+1 || num%i==0 )
+                {
+                        printf(" non premier ");
+                        break;
+
+                }
+            else
+                {
+                         printf("premier");
+                         break;
+
+                }
+
+    }
+
+
+
+    }
+
 
     return 0;
 }

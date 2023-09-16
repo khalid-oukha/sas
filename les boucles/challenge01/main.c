@@ -9,7 +9,7 @@ int main()
     printf("entrez un nombre :\n");
     scanf("%d",&num);
     //Challenge 1: table de multiplication
-    for(int i=0;i<11;i++){
+    for(int i=5;i<11;i++){
         printf("%d * %d = %d \n",num,i,num*i);
     }
 
