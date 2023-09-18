@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1695044327 source:c:\users\youcode\desktop\sas\les tableaux\challenge1\main.c
+	<stdio.h>
+	<stdlib.h>
+
