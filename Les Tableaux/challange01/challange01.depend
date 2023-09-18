@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1694972955 source:c:\users\x390\desktop\sas\les boucles\challange01\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1694972955 source:c:\users\x390\desktop\sas\les tableaux\challange01\main.c
+	<stdio.h>
+	<stdlib.h>
+
