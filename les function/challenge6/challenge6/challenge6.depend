@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1695155813 source:c:\users\x390\desktop\sas\les function\challenge6\challenge6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
