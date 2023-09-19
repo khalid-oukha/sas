@@ -2,17 +2,14 @@
 #include <stdlib.h>
 
 //Challenge 5 :
-float Permuter(float a,float b)
+float Permuter(float a, float b)
 {
-        float cpt;
-        cpt=a;
-        a=b;
-        b=cpt;
-        return a , b;
+
+        return a , b = b , a;
 }
 
 int main()
 {
-        printf("%.2f / %.2f",Permuter(15.52 , 55.51));
+        printf(" %.2f  %.2f",Permuter(11,55));
         return 0;
 }
