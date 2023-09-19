@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<math.h>
+
 void challenge6(int a, int b, int c)
 {
 
